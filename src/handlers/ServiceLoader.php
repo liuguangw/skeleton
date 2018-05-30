@@ -1,10 +1,10 @@
 <?php
 namespace app\handlers;
 
-use liuguang\mvc\ServiceLoader;
+use liuguang\mvc\ServiceLoader as SuperServiceLoader;
 use liuguang\mvc\handlers\IRouteHandler;
 
-class ServiceLoader extends ServiceLoader
+class ServiceLoader extends SuperServiceLoader
 {
 
     public function loadService(): void
