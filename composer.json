@@ -1,0 +1,31 @@
+{
+	"name" : "liuguang/skeleton",
+	"description" : "a skeleton application for the framework",
+	"type" : "project",
+	"homepage" : "http://www.liuguangw.com",
+	"license" : "MIT",
+	"minimum-stability" : "stable",
+	"authors" : [{
+			"name" : "liuguang",
+			"email" : "67579722@qq.com",
+			"homepage" : "http://www.liuguangw.com",
+			"role" : "Developer"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"app\\controllers\\" : "src/controllers/",
+			"app\\services\\" : "src/services/",
+			"app\\handlers\\" : "src/handlers/",
+			"app\\pagination\\" : "src/pagination/",
+			"app\\migrations\\" : "src/migrations/"
+		}
+	},
+	"keywords" : [
+		"liuguang",
+		"skeleton"
+	],
+	"require": {
+		"liuguang/mvc": "dev-master"
+	}
+}
