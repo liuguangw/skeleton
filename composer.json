@@ -18,14 +18,15 @@
 			"app\\services\\" : "src/services/",
 			"app\\handlers\\" : "src/handlers/",
 			"app\\pagination\\" : "src/pagination/",
-			"app\\migrations\\" : "src/migrations/"
+			"app\\migrations\\" : "src/migrations/",
+			"app\\commands\\" : "src/commands/"
 		}
 	},
 	"keywords" : [
 		"liuguang",
 		"skeleton"
 	],
-	"require": {
-		"liuguang/mvc": "dev-master"
+	"require" : {
+		"liuguang/mvc" : "dev-master"
 	}
 }
